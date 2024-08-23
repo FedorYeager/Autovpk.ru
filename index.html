@@ -1,0 +1,1234 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Autovkp.ru</title>
+</head>
+<body>
+  <header class="header container">
+      <a class="header__logo" href="/">
+        <img src="images/logo.png" alt="Buying car logo" height="43px" width="201px" loading="lazy">
+      </a>
+      <nav class="header__nav">
+        <ul class="header__list">
+          <li class="header__item">
+            <a class="header__link is-current" href="/">Выкуп авто</a>
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="/">Подбор авто</a>
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="/">Авториелтор</a>
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="/">Услуги</a>
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="/">Полезное</a>
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="/">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+      <button class="burger-btn" type="button" title="Open menu">
+        <svg width="24" height="26" viewBox="0 0 24 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd"
+        d="M22 7.96555V5.95177H2V7.96555H22ZM22 9.97933V11.9931H2V9.97933H22ZM22 16.0207V14.0069H2V16.0207H22ZM22 20.0482V18.0345H2V20.0482H22Z"
+        fill="black" />
+      </svg>
+    </button>
+    <a class="header__phone-link button" href="tel:+74990000000">Срочный выкуп авто. Звоните! <br> +7 (499) 000-00-00</a>
+  </header>
+  <img class="main-background" src="images/BG.jpg" alt="">
+  <main>
+    <section class="heroes-action container">
+      <div class="heroes-action__info">
+        <div class="heroes-action__today-buy">
+          За сегодня выкуплено:
+          <strong>5 автомобилей</strong>
+        </div>
+        <h1 class="heroes-action__main-title">Выкуп авто в Москве</h1>
+        <div class="heroes-action__sub-title">дороже чем trade-in или аукцион</div>
+        <ul class="heroes-action__list">
+          <li class="heroes-action-item">
+            <img src="icons/heroes-action/1.svg" alt="">
+            <div class="heroes-action__text">
+              <div class="heroes-action__heading">Быстрая оценка</div>
+              <p class="heroes-action__paragraph">Мы ценим ваше время. Получите быструю и объективную оценку вашего авто в режиме онлайн, без ожиданий и лишних звонков.</p>
+            </div>
+          </li>
+          <li class="heroes-action-item">
+            <img src="icons/heroes-action/2.svg" alt="">
+            <div class="heroes-action__text">
+              <div class="heroes-action__heading">Быстрая оценка</div>
+              <p class="heroes-action__paragraph">Безопасность и уверенность в сделке. Мы гарантируем выкуп вашего авто, без скрытых условий или дополнительных комиссий.</p>
+            </div>
+          </li>
+          <li class="heroes-action-item">
+            <img src="icons/heroes-action/3.svg" alt="">
+            <div class="heroes-action__text">
+              <div class="heroes-action__heading">Быстрая оценка</div>
+              <p class="heroes-action__paragraph">Благодаря нашему опыту и аналитике рынка, мы предлагаем самые высокие и конкурентоспособные цены на ваш автомобиль.</p>
+            </div>
+          </li>
+          <li class="heroes-action-item">
+            <img src="icons/heroes-action/4.svg" alt="">
+            <div class="heroes-action__text">
+              <div class="heroes-action__heading">Быстрая оценка</div>
+              <p class="heroes-action__paragraph">Забудьте о бумажной волоките и долгих переговорах. Мы делаем процесс продажи вашего авто максимально простым и комфортным для вас.</p>
+            </div>
+          </li>
+        </ul>
+        <button class="heroes-action__button button" type="button">Запрос оценки</button>
+      </div>
+      <div class="heroes-action__find-cost">
+        <img class="heroes-action__image" src="images/heroes-action.png" alt="Красная машина" width="630px" height="500px" loading="lazy">
+        <form class="heroes-action__form">
+          <div class="heroes-action__form-heading">
+            Узнайте стоимость своего авто <br>
+            <b>за 3 минуты</b>
+          </div>
+          <div class="heroes-action__body">
+            <label class="visually-hidden" for="model-1">Марка, модель, год выпуска</label>
+            <input class="heroes-action__input input" type="text" id="model-1" placeholder="Марка, модель, год выпуска" required>
+            <label class="visually-hidden" for="tel-1">Телефон</label>
+            <input class="heroes-action__input input" type="tel" id="tel-1" placeholder="Телефон" required>
+            <p class="heroes-action__assent assent">Продолжая, вы принимаете согласие на<a href="/"> сбор и обработку персональных данных</a></p>
+            <button class="heroes-action__form-button button" type="button">Узнать стоимость</button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <section class="impact container">
+      <h2 class="impact__title title">Что влияет на стоимость автомобиля при выкупе?</h2>
+      <ol class="impact__list">
+        <li class="impact__item">
+          <img class="impact__num-image" src="icons/impact/1.svg" alt="">
+          <div class="impact__text">
+            <h3 class="impact__heading">Техническая часть</h3>
+            <p class="impact__paragraph">Мы должны убедиться в каком техническом состоянии находится Ваш автомобиль.</p>
+          </div>
+        </li>
+        <li class="impact__item">
+          <img class="impact__num-image" src="icons/impact/2.svg" alt="">
+          <div class="impact__text">
+            <h3 class="impact__heading">История автомобиля</h3>
+            <p class="impact__paragraph">Для выкупа очень важна история автомобиля. Мы просмотрим автотеку.</p>
+          </div>
+        </li>
+        <li class="impact__item">
+          <img class="impact__num-image" src="icons/impact/3.svg" alt="">
+          <div class="impact__text">
+            <h3 class="impact__heading">Кузовные детали</h3>
+            <p class="impact__paragraph">Кузов авто очень влияет на цену выкупа, ведь внешний вид - это ключ для продажи машины.</p>
+          </div>
+        </li>
+        <li class="impact__item">
+          <img class="impact__num-image" src="icons/impact/4.svg" alt="">
+          <div class="impact__text">
+            <h3 class="impact__heading">Наличие других проблем</h3>
+            <p class="impact__paragraph">Проблемные авто тяжелее всего продать, так что мы будем учитывать все факторы.</p>
+          </div>
+        </li>
+      </ol>
+    </section>
+    <section class="calculator container">
+      <h2 class="calculator__title title">Калькулятор стоимости</h2>
+      <form class="calculator__form">
+        <div class="calculator__car-info">
+          <p class="calculator__heading">Информация о автомобиле</p>
+          <label class="visually-hidden" for="model-2">Марка, модель, год выпуска</label>
+          <input class="calculator__input input" type="text" id="model-2" placeholder="Марка, модель, год выпуска" required>
+          <label class="visually-hidden" for="year_of_release">Год выпуска</label>
+          <select name="year-of-release" id="year_of_release">
+            <option value="">Год выпуска</option>
+            <option value="1980-1990">1980-1990</option>
+            <option value="1990-2000">1990-2000</option>
+            <option value="2000-2010">2000-2010</option>
+            <option value="2010-2020">2010-2020</option>
+            <option value="2020+">2020+</option>
+          </select>
+          <label class="visually-hidden" for="car_body_type">Тип кузова автомобиля</label>
+          <select name="car-body-type" id="car_body_type">
+            <option value="">Тип кузова автомобиля</option>
+            <option value="sedan">Седан</option>
+            <option value="hatchback">Хэтчбек</option>
+            <option value="station-wagon">Универсал</option>
+            <option value="coupe">Купе</option>
+            <option value="crossover">Кроссовер</option>
+            <option value="suv">Внедорожник</option>
+            <option value="convertible">Кабриолет</option>
+          </select>
+          <label class="visually-hidden" for="type_of_car_box">Тип коробки автомобиля</label>
+          <select name="type-of-car-box" id="type_of_car_box">
+            <option value="">Тип коробки автомобиля</option>
+            <option value="manual-transmission">Механическая коробка передач</option>
+            <option value="automatic-transmission">Автоматическая коробка передач</option>
+          </select>
+          <label class="visually-hidden" for="mileage">Пробег</label>
+          <input class="calculator__input input" type="number" id="mileage" placeholder="Пробег" required>
+        </div>
+        <div class="calculator__user-info">
+          <p class="calculator__heading">Личная информация</p>
+          <p class="calculator__text">Как с Вами связаться</p>
+          <label class="visually-hidden" for="user_connection-1">Выбрать тип связи</label>
+          <select name="user-connection" id="user_connection-1">
+            <option value="telephone">По телефону</option>
+            <option value="whats-app">Ватсап</option>
+            <option value="viber">Вайбер</option>
+            <option value="telegram">Телеграм</option>
+          </select>
+          <label class="visually-hidden" for="tel-2"></label>
+          <input class="calculator__input input" type="tel" id="tel-2" placeholder="+7 (___) - ___-__-__" required>
+          <p class="calculator__assent assent">Продолжая, вы принимаете согласие на<a href="/"> сбор и обработку персональных данных</a></p>
+          <button class="calculator__button button" type="button">Оценить автомобиль</button>
+        </div>
+      </form>
+    </section>
+    <img class="image-1" src="images/car.png" width="620px" height="300px" loading="lazy" alt="Машина">
+    <section class="compare container">
+      <h1 class="compare__title title">Сравните сами</h1>
+      <div class="compare__sub-title">Чем выкуп у нас отличается от других способов продажи машины</div>
+      <div class="compare__cards-area">
+        <div class="compare__card">
+          <div class="compare__card-heading">Самостоятельно</div>
+          <p class="compare__card-paragraph">Вы сами размещаете объявление, отвечаете на звонки покупателей, проводите встречи и осмотры​</p>
+          <ul class="compare__card-list">
+            <li class="compare__card-item">
+              <img class="compare__card-check" src="icons/check-grey.svg" alt="">
+              <div class="compare__card-item-text">
+                <div class="compare__card-item-heading">Средний срок продажи</div>
+                <p class="compare__card-item-paragraph">до 50 дней</p>
+              </div>
+            </li>
+            <li class="compare__card-item">
+              <img class="compare__card-check" src="icons/check-grey.svg" alt="">
+              <div class="compare__card-item-text">
+                <div class="compare__card-item-heading">Общение с покупателями</div>
+                <p class="compare__card-item-paragraph">Сами общаетесь и организуете показы</p>
+              </div>
+            </li>
+            <li class="compare__card-item">
+              <img class="compare__card-check" src="icons/check-grey.svg" alt="">
+              <div class="compare__card-item-text">
+                <div class="compare__card-item-heading">Гарантия цены</div>
+                <p class="compare__card-item-paragraph">Торгуетесь до и после показа машины</p>
+              </div>
+            </li>
+            <li class="compare__card-item">
+              <img class="compare__card-check" src="icons/check-red.svg" alt="">
+              <div class="compare__card-item-text">
+                <div class="compare__card-item-heading">Цена продажи</div>
+                <p class="compare__card-item-paragraph">Средняя по рынку</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="compare__main-card">
+          <div class="main-card__heading">Выкуп через Autovkp.ru</div>
+          <p class="main-card__paragraph">Специалисты компании возьмут на себя оценку, осмотры и оформление договора.</p>
+          <div class="main-card__sub-heading">Всё это — бесплатно</div>
+          <ul class="main-card__list">
+            <li class="main-card__item">
+              <img class="compare__card-check" src="icons/check-red.svg" alt="">
+              <div class="main-card__item-text">
+                <div class="main-card__item-heading">Средний срок продажи</div>
+                <p class="main-card__item-paragraph">от 2 часов</p>
+              </div>
+            </li>
+            <li class="main-card__item">
+              <img class="compare__card-check" src="icons/check-red.svg" alt="">
+              <div class="main-card__item-text">
+                <div class="main-card__item-heading">Общение с покупателями</div>
+                <p class="main-card__item-paragraph">Менеджер организует осмотр и сделку</p>
+              </div>
+            </li>
+            <li class="main-card__item">
+              <img class="compare__card-check" src="icons/check-red.svg" alt="">
+              <div class="main-card__item-text">
+                <div class="main-card__item-heading">Гарантия цены</div>
+                <p class="main-card__item-paragraph">Финальная цена после осмотра машины</p>
+              </div>
+            </li>
+            <li class="main-card__item">
+              <img class="compare__card-check" src="icons/check-red.svg" alt="">
+              <div class="main-card__item-text">
+                <div class="main-card__item-heading">Мы предложим <b>10000 рублей больше</b></div>
+                <p class="main-card__item-paragraph">чем вам предложили другие компании</p>
+              </div>
+            </li>
+          </ul>
+          <button class="main-card__button button" type="button">Оценить автомобиль</button>
+        </div>
+        <div class="compare__card">
+          <div class="compare__card-heading">Онлайн-аукцион</div>
+          <p class="compare__card-paragraph">Быстрый способ продать автомобиль: его выкупает дилер, вы сами договариваетесь с ним о цене​</p>
+          <ul class="compare__card-list">
+            <li class="compare__card-item">
+              <img class="compare__card-check" src="icons/check-red.svg" alt="">
+              <div class="compare__card-item-text">
+                <div class="compare__card-item-heading">Средний срок продажи</div>
+                <p class="compare__card-item-paragraph">до 5 дней</p>
+              </div>
+            </li>
+            <li class="compare__card-item">
+              <img class="compare__card-check" src="icons/check-grey.svg" alt="">
+              <div class="compare__card-item-text">
+                <div class="compare__card-item-heading">Общение с покупателями</div>
+                <p class="compare__card-item-paragraph">Менеджер организует осмотр и сделку</p>
+              </div>
+            </li>
+            <li class="compare__card-item">
+              <img class="compare__card-check" src="icons/check-grey.svg" alt="">
+              <div class="compare__card-item-text">
+                <div class="compare__card-item-heading">Гарантия цены</div>
+                <p class="compare__card-item-paragraph">Дилер сильно снижает озвученную цен</p>
+              </div>
+            </li>
+            <li class="compare__card-item">
+              <img class="compare__card-check" src="icons/check-grey.svg" alt="">
+              <div class="compare__card-item-text">
+                <div class="compare__card-item-heading">Цена продажи</div>
+                <p class="compare__card-item-paragraph">Ниже рынка на 15−30%</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="services container">
+      <img class="services__bg" src="images/BG-2.png" alt="">
+      <h2 class="services__title">Услуги выкупа</h2>
+      <ul class="services__row">
+        <li class="services__row-item">
+          <img src="icons/services/1.svg" alt="">
+          <p class="services__paragraph">Выкуп битых авто</p>
+        </li>
+        <li class="services__row-item">
+          <img src="icons/services/2.svg" alt="">
+          <p class="services__paragraph">Выкуп мотоциклов</p>
+        </li>
+        <li class="services__row-item">
+          <img src="icons/services/3.svg" alt="">
+          <p class="services__paragraph">Выкуп грузовых автомобилей</p>
+        </li>
+        <li class="services__row-item">
+          <img src="icons/services/4.svg" alt="">
+          <p class="services__paragraph">Выкуп лизинговых авто</p>
+        </li>
+        <li class="services__row-item">
+          <img src="icons/services/5.svg" alt="">
+          <p class="services__paragraph">Выкуп старых авто</p>
+        </li>
+        <li class="services__row-item">
+          <img src="icons/services/6.svg" alt="">
+          <p class="services__paragraph">Выкуп авто без документов</p>
+        </li>
+        <li class="services__row-item">
+          <img src="icons/services/7.svg" alt="">
+          <p class="services__paragraph">Выкуп авто на запчасти</p>
+        </li>
+        <li class="services__row-item">
+          <img src="icons/services/8.svg" alt="">
+          <p class="services__paragraph">Выкуп сгоревших авто</p>
+        </li>
+      </ul>
+    </section>
+    <section class="benefits container">
+      <h2 class="visually-hidden">Наши преимущества и гарантии</h2>
+      <div class="benefits__accardion">
+        <div class="benefits__item">
+          <div class="benefits__title active">Бесплатные услуги</div>
+          <div class="benefits__box active">
+            <ul class="benefits__list">
+              <li class="benefits__list-item">
+                <img src="icons/check-red.svg" alt="">
+                <div class="benefits__text">Оценка авто и выплата сразу на месте</div>
+              </li>
+              <li class="benefits__list-item">
+                <img src="icons/check-red.svg" alt="">
+                <div class="benefits__text">Выезд оценщика на выкуп прямо к дому клиента</div>
+              </li>
+              <li class="benefits__list-item">
+                <img src="icons/check-red.svg" alt="">
+                <div class="benefits__text">Оформление на месте совершения сделки</div>
+              </li>
+              <li class="benefits__list-item">
+                <img src="icons/check-red.svg" alt="">
+                <div class="benefits__text">Эвакуатор для авто не на ходу</div>
+              </li>
+              <li class="benefits__list-item">
+                <img src="icons/check-red.svg" alt="">
+                <div class="benefits__text">Выезд на выкуп в любой центральный и южный регион России</div>
+              </li>
+              <li class="benefits__list-item">
+                <img src="icons/check-red.svg" alt="">
+                <div class="benefits__text">Автомобильная юридическая помощь</div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="benefits__item">
+          <div class="benefits__title">Наши преимущества</div>
+          <div class="benefits__box">
+            <ul class="benefits__list">
+              <li class="benefits__list-item">
+                <img src="icons/check-red.svg" alt="">
+                <div class="benefits__text">Оценка авто и выплата сразу на месте</div>
+              </li>
+              <li class="benefits__list-item">
+                <img src="icons/check-red.svg" alt="">
+                <div class="benefits__text">Выезд оценщика на выкуп прямо к дому клиента</div>
+              </li>
+              <li class="benefits__list-item">
+                <img src="icons/check-red.svg" alt="">
+                <div class="benefits__text">Оформление на месте совершения сделки</div>
+              </li>
+              <li class="benefits__list-item">
+                <img src="icons/check-red.svg" alt="">
+                <div class="benefits__text">Эвакуатор для авто не на ходу</div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="benefits__item">
+          <div class="benefits__title">Что мы выкупаем</div>
+          <div class="benefits__box">
+            <ul class="benefits__list">
+              <li class="benefits__list-item">
+                <img src="icons/check-red.svg" alt="">
+                <div class="benefits__text">Оценка авто и выплата сразу на месте</div>
+              </li>
+              <li class="benefits__list-item">
+                <img src="icons/check-red.svg" alt="">
+                <div class="benefits__text">Выезд оценщика на выкуп прямо к дому клиента</div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="benefits__item">
+          <div class="benefits__title">Какие гарантии</div>
+          <div class="benefits__box">
+            <ul class="benefits__list">
+              <li class="benefits__list-item">
+                <img src="icons/check-red.svg" alt="">
+                <div class="benefits__text">Оценка авто и выплата сразу на месте</div>
+              </li>
+              <li class="benefits__list-item">
+                <img src="icons/check-red.svg" alt="">
+                <div class="benefits__text">Выезд оценщика на выкуп прямо к дому клиента</div>
+              </li>
+              <li class="benefits__list-item">
+                <img src="icons/check-red.svg" alt="">
+                <div class="benefits__text">Оформление на месте совершения сделки</div>
+              </li>
+              <li class="benefits__list-item">
+                <img src="icons/check-red.svg" alt="">
+                <div class="benefits__text">Эвакуатор для авто не на ходу</div>
+              </li>
+              <li class="benefits__list-item">
+                <img src="icons/check-red.svg" alt="">
+                <div class="benefits__text">Выезд на выкуп в любой центральный и южный регион России</div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <p class="main__paragraph container">
+      Безусловно, курс на социально-ориентированный национальный проект позволяет выполнить важные задания по разработке
+      направлений прогрессивного развития. А ещё независимые государства, вне зависимости от их уровня, должны быть объявлены
+      нарушающими общечеловеческие нормы этики и морали! Таким образом, разбавленное изрядной долей эмпатии, рациональное
+      мышление способствует повышению качества переосмысления внешнеэкономических политик. Как уже неоднократно упомянуто,
+      многие известные личности, вне зависимости от их уровня, должны быть объективно рассмотрены соответствующими
+      инстанциями. В рамках спецификации современных стандартов, непосредственные участники технического прогресса смешаны с
+      не уникальными данными до степени совершенной неузнаваемости, из-за чего возрастает их статус бесполезности. Вот вам
+      яркий пример современных тенденций — выбранный нами инновационный путь представляет собой интересный эксперимент
+      проверки экспериментов, поражающих по своей масштабности и грандиозности. Равным образом, глубокий уровень погружения
+      предоставляет широкие возможности для поэтапного и последовательного развития общества. Предварительные выводы
+      неутешительны: синтетическое тестирование способствует повышению качества экономической целесообразности принимаемых
+      решений. Задача организации, в особенности же семантический разбор внешних противодей
+    </p>
+    <section class="how-happens container">
+      <h2 class="how-happens__title title">Как происходит выкуп авто?</h2>
+      <ol class="how-happens__list">
+        <li class="how-happens__item">
+          <img class="how-happens__num-image" src="icons/how-happens/1.svg" alt="">
+          <div class="how-happens__text">
+            <div class="how-happens__heading">Оставьте заявку</div>
+            <p class="how-happens__paragraph">на оценку автомобиля</p>
+          </div>
+        </li>
+        <div class="how-happens__item">
+          <img class="how-happens__num-image" src="icons/how-happens/2.svg" alt="">
+          <div class="how-happens__text">
+            <h3 class="how-happens__heading">Оценщик сам приедет</h3>
+            <p class="how-happens__paragraph">к вам через 60 минут</p>
+          </div>
+        </div>
+        <li class="how-happens__item">
+          <img class="how-happens__num-image" src="icons/how-happens/3.svg" alt="">
+          <div class="how-happens__text">
+            <div class="how-happens__heading">Осмотр и оформление</div>
+            <p class="how-happens__paragraph">займет около 30 минут</p>
+          </div>
+        </li>
+        <li class="how-happens__item">
+          <img class="how-happens__num-image" src="icons/how-happens/4.svg" alt="">
+          <div class="how-happens__text">
+            <div class="how-happens__heading">Деньги уже у вас</div>
+            <p class="how-happens__paragraph">на руках или на карте</p>
+          </div>
+        </li>
+      </ol>
+      <button class="how-happens__button button" type="button">Оставить заявку</button>
+    </section>
+    <section class="models container">
+      <h2 class="models__title">Выкупаем автомобили любых марок</h2>
+      <div class="models__main">
+        <div class="models__column">
+          <div class="models__column-mark">Acura</div>
+          <div class="models__column-mark">Alfa Romeo</div>
+          <div class="models__column-mark">Alpina</div>
+          <div class="models__column-mark">Asia</div>
+          <div class="models__column-mark">Aston Martin</div>
+          <div class="models__column-mark">Audi</div>
+          <div class="models__column-mark">Bentley</div>
+          <div class="models__column-mark">BMW</div>
+          <div class="models__column-mark">Brilliance</div>
+          <div class="models__column-mark">Bugatti</div>
+          <div class="models__column-mark">Buick</div>
+          <div class="models__column-mark">BYD</div>
+          <div class="models__column-mark">Cadillac</div>
+          <div class="models__column-mark">Changan</div>
+          <div class="models__column-mark">Chery</div>
+          <div class="models__column-mark">Chevrolet</div>
+        </div>
+        <div class="models__column">
+          <div class="models__column-mark">Chrysler</div>
+          <div class="models__column-mark">Citroen</div>
+          <div class="models__column-mark">Dacia</div>
+          <div class="models__column-mark">Daewoo</div>
+          <div class="models__column-mark">Daihatsu</div>
+          <div class="models__column-mark">Datsun</div>
+          <div class="models__column-mark">DeLorean</div>
+          <div class="models__column-mark">Derways</div>
+          <div class="models__column-mark">Dodge</div>
+          <div class="models__column-mark">Dongfeng</div>
+          <div class="models__column-mark">FAW</div>
+          <div class="models__column-mark">Ferrari</div>
+          <div class="models__column-mark">Fiat</div>
+          <div class="models__column-mark">Ford</div>
+          <div class="models__column-mark">Foton</div>
+          <div class="models__column-mark">Freightliner</div>
+        </div>
+        <div class="models__column">
+          <div class="models__column-mark">Geely</div>
+          <div class="models__column-mark">Genesis</div>
+          <div class="models__column-mark">GMC</div>
+          <div class="models__column-mark">Great Wall</div>
+          <div class="models__column-mark">Hafei</div>
+          <div class="models__column-mark">Haima</div>
+          <div class="models__column-mark">Haval</div>
+          <div class="models__column-mark">Hawtai</div>
+          <div class="models__column-mark">Hino</div>
+          <div class="models__column-mark">Honda</div>
+          <div class="models__column-mark">Hummer</div>
+          <div class="models__column-mark">Hyundai</div>
+          <div class="models__column-mark">Infiniti</div>
+          <div class="models__column-mark">Iran Khodro</div>
+          <div class="models__column-mark">Isuzu</div>
+          <div class="models__column-mark">JAC</div>
+        </div>
+        <div class="models__column">
+          <div class="models__column-mark">Jaguar</div>
+          <div class="models__column-mark">Jeep</div>
+          <div class="models__column-mark">Kia</div>
+          <div class="models__column-mark">Koenigsegg</div>
+          <div class="models__column-mark">Lamborghini</div>
+          <div class="models__column-mark">Lancia</div>
+          <div class="models__column-mark">Land Rover</div>
+          <div class="models__column-mark">Lexus</div>
+          <div class="models__column-mark">Lifan</div>
+          <div class="models__column-mark">Lincoln</div>
+          <div class="models__column-mark">Lotus</div>
+          <div class="models__column-mark">Luxgen</div>
+          <div class="models__column-mark">Marussia</div>
+          <div class="models__column-mark">Maserati</div>
+          <div class="models__column-mark">Maybach</div>
+          <div class="models__column-mark">Mazda</div>
+        </div>
+        <div class="models__column">
+          <div class="models__column-mark">McLaren</div>
+          <div class="models__column-mark">Mercedes-Benz</div>
+          <div class="models__column-mark">Mercury</div>
+          <div class="models__column-mark">MINI</div>
+          <div class="models__column-mark">Mitsubishi</div>
+          <div class="models__column-mark">Mitsuoka</div>
+          <div class="models__column-mark">Nissan</div>
+          <div class="models__column-mark">Oldsmobile</div>
+          <div class="models__column-mark">Opel</div>
+          <div class="models__column-mark">Pagani</div>
+          <div class="models__column-mark">Peugeot</div>
+          <div class="models__column-mark">Plymouth</div>
+          <div class="models__column-mark">Pontiac</div>
+          <div class="models__column-mark">Porsche</div>
+          <div class="models__column-mark">Proton</div>
+          <div class="models__column-mark">Ravon</div>
+        </div>
+        <div class="models__column">
+          <div class="models__column-mark">Renault</div>
+          <div class="models__column-mark">Renault Samsung</div>
+          <div class="models__column-mark">Rolls-Royce</div>
+          <div class="models__column-mark">Rover</div>
+          <div class="models__column-mark">Saab</div>
+          <div class="models__column-mark">Saturn</div>
+          <div class="models__column-mark">Scion</div>
+          <div class="models__column-mark">SEAT</div>
+          <div class="models__column-mark">Skoda</div>
+          <div class="models__column-mark">Smart</div>
+          <div class="models__column-mark">SsangYong</div>
+          <div class="models__column-mark">Subaru</div>
+          <div class="models__column-mark">Suzuki</div>
+          <div class="models__column-mark">Tesla</div>
+          <div class="models__column-mark">Tianye</div>
+          <div class="models__column-mark">Toyota</div>
+        </div>
+        <div class="models__column">
+          <div class="models__column-mark">UD Trucks</div>
+          <div class="models__column-mark">Volkswagen</div>
+          <div class="models__column-mark">Volvo</div>
+          <div class="models__column-mark">Vortex</div>
+          <div class="models__column-mark">Zotye</div>
+          <div class="models__column-mark">ZX</div>
+          <div class="models__column-mark">Аурус</div>
+          <div class="models__column-mark">ГАЗ</div>
+          <div class="models__column-mark">ЗАЗ</div>
+          <div class="models__column-mark">ИЖ</div>
+          <div class="models__column-mark">ВАЗ</div>
+          <div class="models__column-mark">ЛуАЗ</div>
+          <div class="models__column-mark">Москвич</div>
+          <div class="models__column-mark">ТагАЗ</div>
+          <div class="models__column-mark">Acura</div>
+        </div>
+      </div>
+      <button class="models__button" type="button">Развернуть еще</button>
+    </section>
+    <section class="necessary container">
+      <h2 class="necessary__title title">Что необходимо иметь</h2>
+      <div class="necessary__sub-title">для продажи автомобиля если он:</div>
+      <div class="necessary__row-lists">
+        <div class="necessary__list-box">
+          <div class="necessary__heading-list">не состоит на учете в ГИБДД</div>
+          <ul class="necessary__list">
+            <li class="necessary__list-item">
+              <div class="necessary__list-text">ПТС</div>
+              <img src="./icons/check-blue.svg" alt="">
+            </li>
+            <li class="necessary__list-item">
+              <div class="necessary__list-text">СТС</div>
+              <img src="./icons/check-blue.svg" alt="">
+            </li>
+            <li class="necessary__list-item">
+              <div class="necessary__list-text">Паспорт</div>
+              <img src="./icons/check-blue.svg" alt="">
+            </li>
+            <li class="necessary__list-item">
+              <div class="necessary__list-text">Доверенность</div>
+              <img src="./icons/check-blue.svg" alt="">
+            </li>
+            <li class="necessary__list-item">
+              <div class="necessary__list-text">Полный комплект ключей</div>
+              <img src="./icons/check-blue.svg" alt="">
+            </li>
+          </ul>
+        </div>
+        <img class="necessary__image" src="./images/necessary-image.jpg" width="300px" height="300px" loading="lazy" alt="Ключи от машины">
+        <div class="necessary__list-box">
+          <div class="necessary__heading-list">состоит на учете в ГИБДД</div>
+          <ul class="necessary__list last">
+            <li class="necessary__list-item">
+              <img src="./icons/check-blue.svg" alt="">
+              <div class="necessary__list-text">ПТС</div>
+            </li>
+            <li class="necessary__list-item">
+              <img src="./icons/check-blue.svg" alt="">
+              <div class="necessary__list-text">Паспорт</div>
+            </li>
+            <li class="necessary__list-item">
+              <img src="./icons/check-blue.svg" alt="">
+              <div class="necessary__list-text">Доверенность</div>
+            </li>
+            <li class="necessary__list-item">
+              <img src="./icons/check-blue.svg" alt="">
+              <div class="necessary__list-text">Полный комплект ключей</div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <p class="necessary__paragraph">В случае когда автомобиль стоитна регистрационном учете в ГИБДД от владельца
+        дополнительно требуется СТС(сивдетельство о регистрации ТС).</p>
+      <p class="necessary__paragraph">Если у владельца транспортного средства сервисная книжка с отметками о прохождении
+        плановых ТО, то это может увиеличить
+        рыночную стоимость машины, хотя для срочной продажи этот документ не обязателен.</p>
+      <p class="necessary__paragraph last">В нашей компании простая процедура выкупа автомобилей в любом состоянии с
+        бесплатным эвакуатором, а срочно продать
+        кредитное авто можно за один рабочий день с полным погашением остатка в банке и переоформление документов.</p>
+      <ul class="necessary__list-check">
+        <li class="necessary__check-item">
+          <img src="./images/gibdd-image.jpg" width="88px" height="88px" loading="lazy" alt="Логотип ГИБДД">
+          <div class="necessary__check-text">Проверка штрафов ГИБДД</div>
+        </li>
+        <li class="necessary__check-item">
+          <img src="./images/gos-uslugy-image.jpg" width="170px" height="88px" loading="lazy" alt="Логотип Гос услуг">
+          <div class="necessary__check-text">проверить ТС на ограниченя</div>
+        </li>
+      </ul>
+    </section>
+    <section class="example container">
+      <h2 class="example__title title">Пример выкупленных автомобилей</h2>
+      <div class="example__slider">
+        <div class="example__list slider-list">
+          <a class="example__item slider-item" href="/">
+            <figure>
+              <img src="./images/example-image.jpg" width="230px" height="230px" loading="lazy" alt="Mitsubishi Outlander">
+              <figcaption class="example__model">Mitsubishi Outlander</figcaption>
+            </figure>
+            <time class="example__release" datetime="2014">2014</time>
+            <p class="example__price"><data value="2555000">2 555 000 руб.</data></p>
+          </a>
+          <a class="example__item slider-item" href="/">
+            <figure>
+              <img src="./images/example-image.jpg" width="230px" height="230px" loading="lazy" alt="Mitsubishi Outlander">
+              <figcaption class="example__model">Mitsubishi Outlander</figcaption>
+            </figure>
+            <time class="example__release" datetime="2014">2014</time>
+            <p class="example__price"><data value="2555000">2 555 000 руб.</data></p>
+          </a>
+          <a class="example__item slider-item" href="/">
+            <figure>
+              <img src="./images/example-image.jpg" width="230px" height="230px" loading="lazy" alt="Mitsubishi Outlander">
+              <figcaption class="example__model">Mitsubishi Outlander</figcaption>
+            </figure>
+            <time class="example__release" datetime="2014">2014</time>
+            <p class="example__price"><data value="2555000">2 555 000 руб.</data></p>
+          </a>
+          <a class="example__item slider-item" href="/">
+            <figure>
+              <img src="./images/example-image.jpg" width="230px" height="230px" loading="lazy" alt="Mitsubishi Outlander">
+              <figcaption class="example__model">Mitsubishi Outlander</figcaption>
+            </figure>
+            <time class="example__release" datetime="2014">2014</time>
+            <p class="example__price"><data value="2555000">2 555 000 руб.</data></p>
+          </a>
+          <a class="example__item slider-item" href="/">
+            <figure>
+              <img src="./images/example-image-2.jpg" width="230px" height="230px" loading="lazy" alt="Mitsubishi Outlander">
+              <figcaption class="example__model">Mitsubishi Outlander</figcaption>
+            </figure>
+            <time class="example__release" datetime="2014">2014</time>
+            <p class="example__price"><data value="2555000">2 555 000 руб.</data></p>
+          </a>
+          <a class="example__item slider-item" href="/">
+            <figure>
+              <img src="./images/example-image-2.jpg" width="230px" height="230px" loading="lazy" alt="Mitsubishi Outlander">
+              <figcaption class="example__model">Mitsubishi Outlander</figcaption>
+            </figure>
+            <time class="example__release" datetime="2014">2014</time>
+            <p class="example__price"><data value="2555000">2 555 000 руб.</data></p>
+          </a>
+          <a class="example__item slider-item" href="/">
+            <figure>
+              <img src="./images/example-image-2.jpg" width="230px" height="230px" loading="lazy" alt="Mitsubishi Outlander">
+              <figcaption class="example__model">Mitsubishi Outlander</figcaption>
+            </figure>
+            <time class="example__release" datetime="2014">2014</time>
+            <p class="example__price"><data value="2555000">2 555 000 руб.</data></p>
+          </a>
+        </div>
+        <div class="example__arrows-area arrows-area">
+          <img class="example__arrow--prev example__arrow arrow" src="./icons/arrow-blue.svg" alt="">
+          <img class="example__arrow--next example__arrow arrow" src="./icons/arrow-blue.svg" alt="">
+        </div>
+      </div>
+    </section>
+    <section class="cost container">
+      <h2 class="cost__title title">Оценка стоимости по фото/видео</h2>
+      <div class="cost__sub-titls-area">
+        <div class="cost__sub-title show-video active">Выберите видеоролик</div>
+        <div class="cost__sub-title show-photo">Выберите фотографию</div>
+      </div>
+      <div class="cost__video active video">
+        <ol class="video__numbers-list">
+          <li class="video__number-item">
+            <img src="./icons/cost/1.svg" alt="">
+            <p class="video__number-paragraph">Снимите видео на смартфоне или планшете</p>
+          </li>
+          <li class="video__number-item">
+            <img src="./icons/cost/2.svg" alt="">
+            <p class="video__number-paragraph">Расскажите об автомобиле: какого года выпуска, какой пробег и т.п.</p>
+          </li>
+          <li class="video__number-item">
+            <img src="./icons/cost/3.svg" alt="">
+            <p class="video__number-paragraph">Отправьте видео любым удобным для вас способом</p>
+          </li>
+        </ol>
+        <img class="video__image" src="images/video.jpg" alt="Машина">
+        <form class="video__main-form">
+          <label class="visually-hidden" for="model-3">Марка, модель, год выпуска</label>
+          <input class="video__input input" type="text" id="model-3" placeholder="Марка, модель, год выпуска" required>
+          <label class="video__file" for="video-1">Прикрепите видео</label>
+          <input type="file" id="video-1" name="video" accept="video/*" style="display: none;">
+          <label class="visually-hidden" for="user_connection-2">Выбрать тип связи</label>
+          <select class="video__select" name="user-connection" id="user_connection-2">
+            <option value="telephone">По телефону</option>
+            <option value="whats-app">Ватсап</option>
+            <option value="viber">Вайбер</option>
+            <option value="telegram">Телеграм</option>
+          </select>
+          <label class="visually-hidden" for="tel-3">Номер телефона</label>
+          <input class="video__input input" type="tel" id="tel-3" placeholder="+7 (___) - ___-__-__" required>
+          <p class="video__assent assent">Продолжая, вы принимаете согласие на<a href="/"> сбор и обработку персональных данных</a></p>
+          <button class="video__button button" type="submit">Оценить автомобиль</button>
+          <div>или отправьте нам в мессенджеры</div>
+          <ul class="video__messenger-box">
+            <li><img class="social-img" src="./icons/messenger/WhatsApp.svg" alt="WhatsApp"></li>
+            <li><img class="social-img" src="./icons/messenger/Viber.svg" alt="Viber"></li>
+            <li><img class="social-img" src="./icons/messenger/Telegram.svg" alt="Telegram"></li>
+          </ul>
+        </form>
+      </div>
+      <div class="cost__video photo">
+        <ol class="video__numbers-list">
+          <li class="video__number-item">
+            <img src="./icons/cost/1.svg" alt="">
+            <p class="video__number-paragraph">Снимите фотографии на смартфоне или планшете</p>
+          </li>
+          <li class="video__number-item">
+            <img src="./icons/cost/2.svg" alt="">
+            <p class="video__number-paragraph">Отправьте фотографии любым удобным для вас способом</p>
+          </li>
+        </ol>
+        <img class="video__image" src="images/photo.jpg" alt="Машина">
+        <form class="video__main-form">
+          <label class="visually-hidden" for="model-3">Марка, модель, год выпуска</label>
+          <input class="video__input input" type="text" id="model-3" placeholder="Марка, модель, год выпуска" required>
+          <label class="video__file" for="video-1">Прикрепите видео</label>
+          <input type="file" id="video-1" name="video" accept="video/*" style="display: none;">
+          <label class="visually-hidden" for="user_connection-2">Выбрать тип связи</label>
+          <select class="video__select" name="user-connection" id="user_connection-2">
+            <option value="telephone">По телефону</option>
+            <option value="whats-app">Ватсап</option>
+            <option value="viber">Вайбер</option>
+            <option value="telegram">Телеграм</option>
+          </select>
+          <label class="visually-hidden" for="tel-3"></label>
+          <input class="video__input input" type="tel" id="tel-3" placeholder="+7 (___) - ___-__-__" required>
+          <p class="video__assent assent">Продолжая, вы принимаете согласие на<a href="/"> сбор и обработку персональных данных</a></p>
+          <button class="video__button button" type="submit">Оценить автомобиль</button>
+          <div>или отправьте нам в мессенджеры</div>
+          <ul class="video__messenger-box">
+            <li><a href="/"><img class="social-img" src="./icons/messenger/WhatsApp.svg" alt="WhatsApp"></a></li>
+            <li><a href="/"><img class="social-img" src="./icons/messenger/Viber.svg" alt="Viber"></a></li>
+            <li><a href="/"><img class="social-img" src="./icons/messenger/Telegram.svg" alt="Telegram"></a></li>
+          </ul>
+        </form>
+      </div>
+    </section>
+    <section class="question container">
+      <img class="question__image-desctop" src="./images/FAQ-desctop.png" width="450px" height="835px" loading="lazy" alt="Машины">
+      <img class="question__image-mobile" src="./images/FAQ-modile.png" width="340px" height="300px" loading="lazy" alt="Машины">
+      <div class="question__content">
+        <h2 class="question__title title">Часто задаваемые вопросы</h2>
+        <p class="question__sub-title">предоставляем ответы на наиболее часто задаваемые вопросы</p>
+        <ul class="question__accordion">
+          <li class="question__item">
+            <div class="question__item-heading">Как происходит процесс выкупа авто?</div>
+            <svg width="83" height="84" viewBox="0 0 83 84" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g filter="url(#filter0_d_18_182)">
+                <circle cx="41.6691" cy="37.0486" r="25.3309" fill="white" />
+                <circle cx="41.6691" cy="37.0486" r="24.8309" stroke="#473BF0" />
+              </g>
+              <path d="M38.5594 45.3047L46.7787 37.0481L38.5594 28.7915" stroke="#473BF0" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" />
+              <defs>
+                <filter id="filter0_d_18_182" x="0.338257" y="0.717773" width="82.6617" height="82.6621"
+                  filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                  <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                    result="hardAlpha" />
+                  <feOffset dy="5" />
+                  <feGaussianBlur stdDeviation="8" />
+                  <feColorMatrix type="matrix" values="0 0 0 0 0.0323264 0 0 0 0 0.0598209 0 0 0 0 0.204167 0 0 0 0.06 0" />
+                  <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_18_182" />
+                  <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_18_182" result="shape" />
+                </filter>
+              </defs>
+            </svg>
+            <p class="question__item-content">Процесс выкупа автомобиля включает в себя несколько этапов. Сначала мы проводим оценку технического состояния и рыночной
+            стоимости автомобиля. Затем мы предлагаем клиенту выгодное предложение по цене выкупа. После согласования условий, мы
+            заключаем договор и осуществляем финансовый расчет, после чего происходит передача автомобиля в нашу собственность.</p>
+          </li>
+          <li class="question__item">
+            <div class="question__item-heading">Какие документы нужно предоставить для выкупа авто?</div>
+            <svg width="83" height="84" viewBox="0 0 83 84" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g filter="url(#filter0_d_18_182)">
+                <circle cx="41.6691" cy="37.0486" r="25.3309" fill="white" />
+                <circle cx="41.6691" cy="37.0486" r="24.8309" stroke="#473BF0" />
+              </g>
+              <path d="M38.5594 45.3047L46.7787 37.0481L38.5594 28.7915" stroke="#473BF0" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" />
+              <defs>
+                <filter id="filter0_d_18_182" x="0.338257" y="0.717773" width="82.6617" height="82.6621"
+                  filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                  <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                    result="hardAlpha" />
+                  <feOffset dy="5" />
+                  <feGaussianBlur stdDeviation="8" />
+                  <feColorMatrix type="matrix" values="0 0 0 0 0.0323264 0 0 0 0 0.0598209 0 0 0 0 0.204167 0 0 0 0.06 0" />
+                  <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_18_182" />
+                  <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_18_182" result="shape" />
+                </filter>
+              </defs>
+            </svg>
+            <p class="question__item-content">Процесс выкупа автомобиля включает в себя несколько этапов. Сначала мы проводим оценку технического состояния и рыночной
+            стоимости автомобиля. Затем мы предлагаем клиенту выгодное предложение по цене выкупа. После согласования условий, мы
+            заключаем договор и осуществляем финансовый расчет, после чего происходит передача автомобиля в нашу собственность.</p>
+          </li>
+          <li class="question__item">
+            <div class="question__item-heading">Какой будет цена выкупа моего автомобиля?</div>
+            <svg width="83" height="84" viewBox="0 0 83 84" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g filter="url(#filter0_d_18_182)">
+                <circle cx="41.6691" cy="37.0486" r="25.3309" fill="white" />
+                <circle cx="41.6691" cy="37.0486" r="24.8309" stroke="#473BF0" />
+              </g>
+              <path d="M38.5594 45.3047L46.7787 37.0481L38.5594 28.7915" stroke="#473BF0" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" />
+              <defs>
+                <filter id="filter0_d_18_182" x="0.338257" y="0.717773" width="82.6617" height="82.6621"
+                  filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                  <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                    result="hardAlpha" />
+                  <feOffset dy="5" />
+                  <feGaussianBlur stdDeviation="8" />
+                  <feColorMatrix type="matrix" values="0 0 0 0 0.0323264 0 0 0 0 0.0598209 0 0 0 0 0.204167 0 0 0 0.06 0" />
+                  <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_18_182" />
+                  <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_18_182" result="shape" />
+                </filter>
+              </defs>
+            </svg>
+            <p class="question__item-content">Процесс выкупа автомобиля включает в себя несколько этапов. Сначала мы проводим оценку технического состояния и рыночной
+            стоимости автомобиля. Затем мы предлагаем клиенту выгодное предложение по цене выкупа. После согласования условий, мы
+            заключаем договор и осуществляем финансовый расчет, после чего происходит передача автомобиля в нашу собственность.</p>
+          </li>
+          <li class="question__item">
+            <div class="question__item-heading">Могу ли я продать автомобиль с проблемами?</div>
+            <svg width="83" height="84" viewBox="0 0 83 84" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g filter="url(#filter0_d_18_182)">
+                <circle cx="41.6691" cy="37.0486" r="25.3309" fill="white" />
+                <circle cx="41.6691" cy="37.0486" r="24.8309" stroke="#473BF0" />
+              </g>
+              <path d="M38.5594 45.3047L46.7787 37.0481L38.5594 28.7915" stroke="#473BF0" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" />
+              <defs>
+                <filter id="filter0_d_18_182" x="0.338257" y="0.717773" width="82.6617" height="82.6621"
+                  filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                  <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                    result="hardAlpha" />
+                  <feOffset dy="5" />
+                  <feGaussianBlur stdDeviation="8" />
+                  <feColorMatrix type="matrix" values="0 0 0 0 0.0323264 0 0 0 0 0.0598209 0 0 0 0 0.204167 0 0 0 0.06 0" />
+                  <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_18_182" />
+                  <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_18_182" result="shape" />
+                </filter>
+              </defs>
+            </svg>
+            <p class="question__item-content">Процесс выкупа автомобиля включает в себя несколько этапов. Сначала мы проводим оценку технического состояния и рыночной
+            стоимости автомобиля. Затем мы предлагаем клиенту выгодное предложение по цене выкупа. После согласования условий, мы
+            заключаем договор и осуществляем финансовый расчет, после чего происходит передача автомобиля в нашу собственность.</p>
+          </li>
+          <li class="question__item">
+            <div class="question__item-heading">Как быстро происutходит выкуп автомобиля?</div>
+            <svg width="83" height="84" viewBox="0 0 83 84" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g filter="url(#filter0_d_18_182)">
+                <circle cx="41.6691" cy="37.0486" r="25.3309" fill="white" />
+                <circle cx="41.6691" cy="37.0486" r="24.8309" stroke="#473BF0" />
+              </g>
+              <path d="M38.5594 45.3047L46.7787 37.0481L38.5594 28.7915" stroke="#473BF0" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" />
+              <defs>
+                <filter id="filter0_d_18_182" x="0.338257" y="0.717773" width="82.6617" height="82.6621"
+                  filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                  <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                    result="hardAlpha" />
+                  <feOffset dy="5" />
+                  <feGaussianBlur stdDeviation="8" />
+                  <feColorMatrix type="matrix" values="0 0 0 0 0.0323264 0 0 0 0 0.0598209 0 0 0 0 0.204167 0 0 0 0.06 0" />
+                  <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_18_182" />
+                  <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_18_182" result="shape" />
+                </filter>
+              </defs>
+            </svg>
+            <p class="question__item-content">Процесс выкупа автомобиля включает в себя несколько этапов. Сначала мы проводим оценку технического состояния и рыночной
+            стоимости автомобиля. Затем мы предлагаем клиенту выгодное предложение по цене выкупа. После согласования условий, мы
+            заключаем договор и осуществляем финансовый расчет, после чего происходит передача автомобиля в нашу собственность.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="feedback container">
+      <h2 class="feedback__title title">Отзывы</h2>
+      <div class="feedback__sub-title-area">
+        <div class="feedback__sub-title show-text-feedback active">Текстовые отзывы</div>
+        <div class="feedback__sub-title show-video-feedback">Видеоотзывы</div>
+      </div>
+      <ul class="feedback__slider slider-text active">
+        <li class="feedback__slider-item">
+          <img src="./images/feedback-image.png" alt="Фотография Иванова Алексея">
+          <div class="feedback__model">Skoda Octavia, 2018</div>
+          <time class="feedback__date" datetime="2024-05-21">21 мая 2024 г</time>
+          <div class="feedback__content-text">
+            <div class="feedback__user">Иванов Алексей</div>
+            <p class="feedback__text">Но постоянный количественный рост и сфера нашей активности влечет за собой процесс внедрения и модернизации системы
+            обучения кадров, соответствующей насущным потребностям! Также как повышение уровня гражданского сознания не даёт нам
+            иного выбора, кроме определения дальнейших направлений развития. Но предприниматели в сети интернет и по сей день
+            остаются уделом либералов, которые жаждут быть обнародованы. Банальные, но неопровержимые выводы, а также некоторые
+            особенности внутренней политики в равной степени предоставлены сами себе.</p>
+          </div>
+          <button class="feedback__button" type="button">
+            Развернуть отзыв
+            <img class="feedback__arrow" src="./icons/arrow-feedback.svg" alt="">
+          </button>
+        </li>
+        <li class="feedback__slider-item">
+          <img src="./images/feedback-image.png" alt="Фотография Иванова Алексея">
+          <div class="feedback__model">Skoda Octavia, 2018</div>
+          <time class="feedback__date" datetime="2024-05-21">21 мая 2024 г</time>
+          <div class="feedback__content-text">
+            <div class="feedback__user">Иванов Алексей</div>
+            <p class="feedback__text">Но постоянный количественный рост и сфера нашей активности влечет за собой процесс внедрения и модернизации системы
+            обучения кадров, соответствующей насущным потребностям! Также как повышение уровня гражданского сознания не даёт нам
+            иного выбора, кроме определения дальнейших направлений развития. Но предприниматели в сети интернет и по сей день
+            остаются уделом либералов, которые жаждут быть обнародованы. Банальные, но неопровержимые выводы, а также некоторые
+            особенности внутренней политики в равной степени предоставлены сами себе.</p>
+          </div>
+          <button class="feedback__button" type="button">
+            Развернуть отзыв
+            <img class="feedback__arrow" src="./icons/arrow-feedback.svg" alt="">
+          </button>
+        </li>
+      </ul>
+      <ul class="feedback__slider slider-video">
+        <li class="feedback__slider-item">
+          <img src="./images/feedback-image.png" alt="Фотография Иванова Алексея">
+          <div class="feedback__model">Skoda Octavia, 2018</div>
+          <time class="feedback__date" datetime="2024-05-21">21 мая 2024 г</time>
+          <div class="feedback__content-video">
+            <div class="feedback__user">Иванов Алексей</div>
+            <a href="https://www.youtube.com/watch?v=GnRQtA28BfY"><img src="images/feedback-video.png" alt=""></a>
+        </li>
+        <li class="feedback__slider-item">
+          <img src="./images/feedback-image.png" alt="Фотография Иванова Алексея">
+          <div class="feedback__model">Skoda Octavia, 2018</div>
+          <time class="feedback__date" datetime="2024-05-21">21 мая 2024 г</time>
+          <div class="feedback__content-video">
+            <div class="feedback__user">Иванов Алексей</div>
+            <a href="https://www.youtube.com/watch?v=GnRQtA28BfY"><img src="images/feedback-video.png" alt=""></a>
+        </li>
+      </ul>
+    </section>
+    <section class="quick container">
+      <div class="quick__text-body">
+        <h2 class="quick__title title">Выкуп авто <span>за 1 день</span></h2>
+        <div class="quick__sub-title">Адекватная цена, персональный сервис</div>
+        <p class="quick__paragraph">Если Вам нужно выгодно и быстро продать автомобиль - срочно обращайтесь в нашу фирму.
+          Предлагаем адекватные по
+          вторичному рынку цены на машины всех марок и моделей, стоимость выкупа всегда выше аукциона. Осмотр авто оценщиком
+          перед
+          покупкой проводится чаще всего в день обращения.. Оказываем персональные консультации и предоставляем полноценный
+          клиентский сервисю скупка авто в нашей компании осуществляется по все России и мы готовы рассмотреть любые ваши
+          предложения.</p>
+        <p class="quick__paragraph">Чтобы узнать условия выкупа автомобиля и уточнить детали сделки купли-продажи заполните
+          форму заявку ниже.</p>
+      </div>
+      <form class="quick__main-form">
+        <label class="visually-hidden" for="name">Имя</label>
+        <input class="quick__input input" type="text" id="name" placeholder="Имя" required>
+        <label class="visually-hidden" for="tel-4">Номер телефона</label>
+        <input class="quick__input input" type="tel" id="tel-4" placeholder="+7 (___) - ___-__-__" required>
+        <p class="quick__assent assent">Продолжая, вы принимаете согласие на<a href="/"> сбор и обработку персональных
+            данных</a></p>
+        <button class="quick__button button" type="submit">Оценить автомобиль</button>
+        <div>или пишите нам в мессенджеры</div>
+        <ul class="quick__messenger-box">
+          <li><img class="social-img" src="./icons/messenger/WhatsApp.svg" alt="WhatsApp"></li>
+          <li><img class="social-img" src="./icons/messenger/Viber.svg" alt="Viber"></li>
+          <li><img class="social-img" src="./icons/messenger/Telegram.svg" alt="Telegram"></li>
+        </ul>
+      </form>
+    </section>
+    <section class="sell-smart container">
+      <h2 class="sell-smart__title title">Где продать ваше авто
+      быстро и по выгодной цене?</h2>
+      <p class="sell-smart__paragraph">Внезапно, реплицированные с зарубежных источников, современные исследования призывают нас к новым свершениям, которые, в
+      свою очередь, должны быть разоблачены. Как принято считать, диаграммы связей превращены в посмешище, хотя само их
+      существование приносит несомненную пользу обществу. Но высокотехнологичная концепция общественного уклада не оставляет
+      шанса для системы массового участия. Как принято считать, многие известные личности своевременно верифицированы. С
+      учётом сложившейся международной обстановки, начало повседневной работы по формированию позиции однозначно определяет
+      каждого участника как способного принимать собственные решения касаемо поэтапного и последовательного развития общества.
+      Есть над чем задуматься: действия представителей оппозиции и по сей день остаются уделом либералов, которые жаждут быть
+      в равной степени предоставлены сами себе. Есть над чем задуматься: акционеры крупнейших компаний, вне зависимости от их
+      уровня, должны быть смешаны с не уникальными данными до степени совершенной неузнаваемости, из-за чего возрастает их
+      статус бесполезности. Для современного мира разбавленное изрядной долей эмпатии, рациональное мышление создаёт
+      предпосылки для первоочередных требований. Мы вынуждены отталкиваться от того, что перспективное планирование требует
+      определения и уточнения форм воздействия. А ещё непосредственные участники технического прогресса представлены в
+      исключительно положительном свете. Идейные соображения высшего порядка, а также укрепление и развитие внутренней
+      структуры обеспечивает актуальность стандартных подходов. Господа, выбранный нами инновационный путь предопределяет
+      высокую востребованность распределения внутренних резервов и ресурсов. Прежде всего, убеждённость некоторых оппонентов
+      не даёт нам иного выбора, кроме определения укрепления моральных ценностей. А ещё действия представителей оппозиции,
+      превозмогая сложившуюся непростую экономическую ситуацию, описаны максимально подробно! А также акционеры крупнейших
+      компаний формируют глобальную экономическую сеть и при этом — объективно рассмотрены соответствующими инстанциями!
+      Каждый из нас понимает очевидную вещь: сложившаяся структура организации.</p>
+    </section>
+    <section class="location container">
+      <h2 class="location__title">Мы работаем по всей Москве и Московской области</h2>
+      <div class="location__main">
+        <div class="location__column">
+          <div class="location__column-mark">Красногорск</div>
+          <div class="location__column-mark">Апрелевка</div>
+          <div class="location__column-mark">Химки</div>
+          <div class="location__column-mark">Долгопрудный</div>
+          <div class="location__column-mark">Мытищи</div>
+          <div class="location__column-mark">Солнечногорск</div>
+          <div class="location__column-mark">Дмитров</div>
+          <div class="location__column-mark">Сергиев Посад</div>
+          <div class="location__column-mark">Красноармейск</div>
+          <div class="location__column-mark">Электрогорск</div>
+          <div class="location__column-mark">Павловский Посад</div>
+          <div class="location__column-mark">Орехово-Зуево</div>
+          <div class="location__column-mark">Егорьевск</div>
+          <div class="location__column-mark">Ивантеевка</div>
+        </div>
+        <div class="location__column">
+          <div class="location__column-mark">Королев</div>
+          <div class="location__column-mark">Нахабино</div>
+          <div class="location__column-mark">Щелково</div>
+          <div class="location__column-mark">Пушкино</div>
+          <div class="location__column-mark">Балашиха</div>
+          <div class="location__column-mark">Воскресенск</div>
+          <div class="location__column-mark">Бронницы</div>
+          <div class="location__column-mark">Ступино</div>
+          <div class="location__column-mark">Серпухов</div>
+          <div class="location__column-mark">Балабаново</div>
+          <div class="location__column-mark">Наро-Фоминск</div>
+          <div class="location__column-mark">Краснознаменск</div>
+          <div class="location__column-mark">Кубинка</div>
+          <div class="location__column-mark">Ногинск</div>
+        </div>
+        <div class="location__column">
+          <div class="location__column-mark">Реутов</div>
+          <div class="location__column-mark">Одинцово</div>
+          <div class="location__column-mark">Лыткарино</div>
+          <div class="location__column-mark">Видное</div>
+          <div class="location__column-mark">Дзержинск</div>
+          <div class="location__column-mark">Домодедово</div>
+          <div class="location__column-mark">Можайск</div>
+          <div class="location__column-mark">Руза</div>
+          <div class="location__column-mark">Звенигород</div>
+          <div class="location__column-mark">Истра</div>
+          <div class="location__column-mark">Дедовск</div>
+          <div class="location__column-mark">Волоколамск</div>
+          <div class="location__column-mark">Клин</div>
+          <div class="location__column-mark">Электроугли</div>
+          <div class="location__column-mark">Кашира</div>
+        </div>
+        <div class="location__column">
+          <div class="location__column-mark">Дзержинский</div>
+          <div class="location__column-mark">Бутово</div>
+          <div class="location__column-mark">Подольск</div>
+          <div class="location__column-mark">Троицк</div>
+          <div class="location__column-mark">Щербинка</div>
+          <div class="location__column-mark">Люберцы</div>
+          <div class="location__column-mark">Коломна</div>
+          <div class="location__column-mark">Обнинск</div>
+          <div class="location__column-mark">Чехов</div>
+          <div class="location__column-mark">Электросталь</div>
+          <div class="location__column-mark">Зеленоград</div>
+          <div class="location__column-mark">Лобня</div>
+          <div class="location__column-mark">Раменское</div>
+          <div class="location__column-mark">Фрязино</div>
+          <div class="location__column-mark">Селятино</div>
+        </div>
+      </div>
+      <button class="location__button" type="button">Развернуть еще</button>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer__columns-area">
+      <div class="footer__main-column footer__column">
+        <a class="footer__logo" href="/">
+          <img src="./images/logo-footer.png" alt="Логотип Автовпк">
+        </a>
+        <div>Контактная информация</div>
+        <address>г. Москва, Красная площадь дом 1</address>
+        <a href="mailto:mail@Autovkp.ru">mail@Autovkp.ru</a>
+        <a href="tel:+74990000000">+7 (499) 000-00-00</a>
+        <button class="footer__button button" type="button">Вызов оценщика</button>
+      </div>
+      <div class="footer__column">
+        <div class="footer__column-heading">Юридический и финансовый выкуп</div>
+        <ul class="footer__column-list">
+          <li class="footer__column-item">Кредитных авто</li>
+          <li class="footer__column-item">В залоге</li>
+          <li class="footer__column-item">С ломбарда</li>
+          <li class="footer__column-item">У банков</li>
+          <li class="footer__column-item">Под арестом</li>
+          <li class="footer__column-item">Нерастаможенных авто</li>
+          <li class="footer__column-item">У судебных приставов</li>
+          <li class="footer__column-item">У юридических лиц</li>
+          <li class="footer__column-item">Без снятия с учета</li>
+        </ul>
+      </div>
+      <div class="footer__column">
+        <div class="footer__column-heading">Технический и эксплуатационный выкуп</div>
+        <ul class="footer__column-list">
+          <li class="footer__column-item">С запретом</li>
+          <li class="footer__column-item">Проблемных авто</li>
+          <li class="footer__column-item">Срочный выкуп</li>
+          <li class="footer__column-item">С неисправным двигателем</li>
+          <li class="footer__column-item">Утилизированных</li>
+          <li class="footer__column-item">С выездом</li>
+          <li class="footer__column-item">Со штрафстоянки</li>
+          <li class="footer__column-item">Неисправных авто</li>
+          <li class="footer__column-item">Брошенных</li>
+        </ul>
+      </div>
+      <div class="footer__column">
+        <div class="footer__column-heading">Выкуп разных типов ТС</div>
+        <ul class="footer__column-list">
+          <li class="footer__column-item">Отечественных автомобилей</li>
+          <li class="footer__column-item">Скутеров</li>
+          <li class="footer__column-item">Перекупщики</li>
+          <li class="footer__column-item">Квадроциклов</li>
+          <li class="footer__column-item">Новых</li>
+          <li class="footer__column-item">Списанных</li>
+          <li class="footer__column-item">Коммерческих авто</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__row">
+      <div class="footer__row-item">Служба выкупа автомобилей круглосуточно 24/7</div>
+      <a class="footer__row-item" href="/">Политика конфиденциальности и обработка данных</a>
+      <div class="footer__row-item">© 2000-2024 automoscar.ru</div>
+    </div>
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html>
